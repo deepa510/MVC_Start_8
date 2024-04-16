@@ -15,6 +15,10 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult DIS()
+    {
+        return View();
+    }
 
     public IActionResult Contact()
     {
